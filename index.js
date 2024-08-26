@@ -19,3 +19,7 @@ else if (score < 50 && score >=0){
     document.write("You got a F 😟.");
     console.log("You got a F 😟.");
 }
+else if (score > 100 || score < 0){
+    document.write("Invalid score ❌.");
+    console.log("Invalid score ❌.")
+}
