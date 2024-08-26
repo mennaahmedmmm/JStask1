@@ -23,7 +23,7 @@ else if (score > 100 || score < 0){
     document.write("Invalid score ❌.");
     console.log("Invalid score ❌.");
 }
-else if (score=NaN){
+else if ( isNaN(score)){
     document.write("Not a Number ❌.");
     console.log("Not a Number ❌.");
 }
