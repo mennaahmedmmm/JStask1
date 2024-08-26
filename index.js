@@ -21,13 +21,13 @@ else if (score < 50 && score >=0){
 }
 else if (score > 100 || score < 0){
     document.write("Invalid score ❌.");
-    console.log("Invalid score ❌.")
+    console.log("Invalid score ❌.");
 }
 else if (score=NaN){
     document.write("Not a Number ❌.");
-    console.log("Not a Number ❌.")
+    console.log("Not a Number ❌.");
 }
 else if (score == 100){
     document.write("Perfect score 🏆.");
-    console.log("Perfect score 🏆.")
+    console.log("Perfect score 🏆.");
 }
